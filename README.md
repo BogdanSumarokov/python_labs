@@ -21,3 +21,6 @@ Running tests
 Test summary
     22 test cases passed! No cases failed.
 ```
+## [Четвёртая лабараторная работа](https://github.com/BogdanSumarokov/python_labs/tree/main/labs4)
+Папка labs4      
+Задания содержатся прямо в файлах с кодом в виде комментариев.

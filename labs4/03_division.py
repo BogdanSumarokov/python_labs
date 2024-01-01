@@ -13,3 +13,10 @@
 a, b = 179, 37
 
 # TODO здесь ваш код
+
+print(f"Целочисленное деление {a} на {b} дает ", end='')
+res = 0
+while a >= b:
+    a -= b
+    res += 1
+print(res)

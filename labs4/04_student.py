@@ -13,3 +13,12 @@
 educational_grant, expenses = 10000, 12000
 
 # TODO здесь ваш код
+x = 0
+need_money = expenses
+while x < 9:
+    expenses *= 1.03
+    x += 1
+    need_money += expenses
+
+res = need_money - educational_grant * 10
+print(f'Студенту надо попросить {round(res,2)} рублей')

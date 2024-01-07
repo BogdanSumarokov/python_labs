@@ -55,4 +55,10 @@ store = {
 #         подсчет стоимости товара
 #     вывод на консоль количества и стоимости товара на складе
 
-# TODO здесь ваш код
+for product in goods:
+    quantity, cost = 0, 0
+    lst = store[goods[product]]
+    for dct in lst:
+        quantity += dct['quantity']
+        cost += dct['quantity'] * dct['price']
+    print(f'{product} - {quantity} шт, стоимость {cost} руб')
